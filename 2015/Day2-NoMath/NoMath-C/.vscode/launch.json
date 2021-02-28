@@ -10,21 +10,9 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "linux": {
-                "MIMode": "gdb",
-                "miDebuggerPath": "gdb",
-                "program": "${workspaceFolder}/output/main"
-            },
-            "osx": {
-                "MIMode": "lldb",
-                "miDebuggerPath": "lldb-mi",
-                "program": "${workspaceFolder}/output/main"
-            },
-            "windows": {
-                "MIMode": "gdb",
-                "miDebuggerPath": "gdb.exe",
-                "program": "${workspaceFolder}/output/main.exe"
-            },
+            "MIMode": "lldb",
+            "MIDebuggerPath": "lldb-mi",
+            "program": "${workspaceFolder}/output/main",           
             "preLaunchTask": "build"
         }
     ]
